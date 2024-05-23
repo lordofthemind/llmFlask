@@ -27,6 +27,17 @@ llmFlask/
 
 - Python 3.10 or higher
 - pip
+- `ollama` service running locally
+
+## Setting up and Running `ollama`
+
+1. **Install `ollama`**:
+
+   Follow the instructions provided by the `ollama` documentation to install and set up the service locally. This typically involves downloading the service and starting it on your local machine.
+
+2. **Start the `ollama` service**:
+
+   Ensure the `ollama` service is running locally before starting the Flask application. The `ollama` service should be configured to use the model `gemma:2b`.
 
 ## Installation
 
